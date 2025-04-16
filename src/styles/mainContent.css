@@ -1,0 +1,34 @@
+body {
+    background-color: #282D35;
+}
+main {
+    background-image: url('../assets/react-logo-half.png');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-position-x: right;
+    background-position-y: bottom; */
+    background-position: right bottom;
+    padding: 50px 0 0 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 700px;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 0.15vw;
+}
+
+ul > li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 0.015vw;
+    line-height: 30px;
+}
+
+li::marker {
+    color: #4ddbff;
+    font-size: 30px;
+}
